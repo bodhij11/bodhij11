@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='600'>
+  <rect x='0' y='0' width='900' height='600' fill='white'/>
+  <rect x='90' y='40' width='770' height='490' fill='#f8fbff' stroke='#bbb'/>
+  <line x1='90' y1='530' x2='860' y2='530' stroke='black'/>
+  <line x1='90' y1='40' x2='90' y2='530' stroke='black'/>
+  <text x='450.0' y='580' text-anchor='middle' font-size='16'>Inlet Temperature (°C)</text>
+  <text x='25' y='300.0' text-anchor='middle' transform='rotate(-90 25 300.0)' font-size='16'>Inlet Relative Humidity (fraction)</text>
+  <text x='100' y='65' font-size='14' fill='#1d4ed8'>Blue curve: economic break-even (net $/hr = 0)</text>
+  <text x='100' y='85' font-size='13' fill='#555'>Right of curve: more water-value saved than electricity cost</text>
+  <text x='100' y='103' font-size='13' fill='#555'>Left of curve: electricity cost exceeds water-value saved</text>
+  <polyline points='' fill='none' stroke='#1d4ed8' stroke-width='3'/>
+</svg>
